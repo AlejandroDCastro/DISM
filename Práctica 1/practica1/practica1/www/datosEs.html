@@ -1,0 +1,35 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Datos</title>
+</head>
+<body>
+    <div data-role="page" id="datosEs">
+        <div data-role="header">
+            <h1>Datos</h1>
+        </div>
+        <div role="main" class="ui-content">
+            Introduce el Idema:<br>
+            <input id="idem" type="text" placeholder="Idema" />
+            <br>
+            <button id="botonico" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left" onclick="InicializarDatos();"><i class="fa fa-plus-square"></i> Información</button>
+            <table id="dataGrid3" class="display responsive nowrap table table-striped table-bordered" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Idema</th>
+                        <th>Ubicación</th>
+                        <th>Fecha-Hora</th>
+                        <th>Temperatura</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div data-role="footer">
+            <p>
+                <a href="index.html" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btninline
+ui-icon-back ui-btn-icon-left">Atrás</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

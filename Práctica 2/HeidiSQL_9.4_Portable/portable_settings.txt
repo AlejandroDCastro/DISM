@@ -1,0 +1,127 @@
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,53
+ColsVisible_connform.ListSessions<|||>1<|||>0
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+CoolBand0Index<|||>3<|||>0
+CoolBand0Break<|||>3<|||>1
+CoolBand0Width<|||>3<|||>675
+CoolBand1Index<|||>3<|||>1
+CoolBand1Break<|||>3<|||>1
+CoolBand1Width<|||>3<|||>675
+MainWinOnMonitor<|||>3<|||>0
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,275
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,275,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,145
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,215
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+LastSessions<|||>1<|||>DISM
+LastActiveSession<|||>1<|||>DISM
+ColWidths_frmTableEditor.listColumns<|||>1<|||>22,100,156,90,60,65,50,119,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>338,100,80
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>96,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+querymemoheight<|||>3<|||>303
+queryhelperswidth<|||>3<|||>33
+WarnUnsafeUpdates<|||>3<|||>0
+FindDialogSearchHistory<|||>1<|||>DECIMAL(4,1)<{{{><}}}>VARCHAR(7)<{{{><}}}>DECIMAL<{{{><}}}>INT<{{{><}}}>10<{{{><}}}>DOUBLE<{{{><}}}>double<{{{><}}}> idema VARCHAR(45),<{{{><}}}> lon DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> fint VARCHAR(45) DEFAULT NULL,<{{{><}}}> prec DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> alt DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> vmax DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> vv DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> dv DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> lat DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> dmax DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> ubi VARCHAR(45) DEFAULT NULL,<{{{><}}}> pres DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> hr DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> stdvv DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> ts DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> pres_nmar DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> tamin DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> ta DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> tamax DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> tpr DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> vis DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> stddv DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> inso DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> tss5cm DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> pacutp DOUBLE(10,8) DEFAULT NULL,<{{{><}}}> tss20cm DOUBLE(10,8) DEFAULT NULL, PRIMARY KEY(idema)<{{{><}}}>) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;<{{{><}}}>0.0<{{{><}}}>0<{{{><}}}>decimal<{{{><}}}>
+FindDialogReplaceHistory<|||>1<|||>DECIMAL(7,1)<{{{><}}}>DECIMAL(4,1)<{{{><}}}>VARCHAR<{{{><}}}>3<{{{><}}}>DECIMAL<{{{><}}}>FLOAT<{{{><}}}>null<{{{><}}}>double<{{{><}}}>
+dbtreewidth<|||>3<|||>202
+sqloutheight<|||>3<|||>71
+MainWinLeft<|||>3<|||>602
+MainWinTop<|||>3<|||>0
+MainWinWidth<|||>3<|||>697
+MainWinHeight<|||>3<|||>775
+SQLFile0<|||>1<|||>C:\Users\Alex\Desktop\dism\APIs.sql
+Servers\DISM\SessionCreated<|||>1<|||>2018-11-05 17:25:29
+Servers\DISM\Host<|||>1<|||>127.0.0.1
+Servers\DISM\WindowsAuth<|||>3<|||>0
+Servers\DISM\User<|||>1<|||>root
+Servers\DISM\Password<|||>1<|||>747171762
+Servers\DISM\LoginPrompt<|||>3<|||>0
+Servers\DISM\Port<|||>1<|||>3311
+Servers\DISM\NetType<|||>3<|||>0
+Servers\DISM\Compressed<|||>3<|||>0
+Servers\DISM\LocalTimeZone<|||>3<|||>0
+Servers\DISM\QueryTimeout<|||>3<|||>0
+Servers\DISM\KeepAlive<|||>3<|||>0
+Servers\DISM\FullTableStatus<|||>3<|||>1
+Servers\DISM\Databases<|||>1<|||>
+Servers\DISM\Comment<|||>1<|||>
+Servers\DISM\StartupScriptFilename<|||>1<|||>
+Servers\DISM\SSHtunnelHost<|||>1<|||>
+Servers\DISM\SSHtunnelHostPort<|||>3<|||>0
+Servers\DISM\SSHtunnelUser<|||>1<|||>
+Servers\DISM\SSHtunnelPassword<|||>1<|||>1
+Servers\DISM\SSHtunnelTimeout<|||>3<|||>4
+Servers\DISM\SSHtunnelPrivateKey<|||>1<|||>
+Servers\DISM\SSHtunnelPort<|||>3<|||>3307
+Servers\DISM\SSL_Active<|||>3<|||>0
+Servers\DISM\SSL_Key<|||>1<|||>
+Servers\DISM\SSL_Cert<|||>1<|||>
+Servers\DISM\SSL_CA<|||>1<|||>
+Servers\DISM\SSL_Cipher<|||>1<|||>
+Servers\DISM\RefusedCount<|||>3<|||>55
+Servers\DISM\ServerVersionFull<|||>1<|||>5.0.67-community-nt - MySQL Community Edition (GPL)
+Servers\DISM\ConnectCount<|||>3<|||>9
+Servers\DISM\ServerVersion<|||>3<|||>50067
+Servers\DISM\LastConnect<|||>1<|||>2018-11-15 08:34:54
+Servers\DISM\lastUsedDB<|||>1<|||>dism
+Servers\DISM\QueryHistory\1<|||>1<|||>2018-11-11 11:00:20|dism|0|use dism;
+Servers\DISM\QueryHistory\2<|||>1<|||>2018-11-11 11:15:49|dism|62|use dism;<{{{><}}}><{{{><}}}>CREATE TABLE IF NOT EXISTS `usuarios` (<{{{><}}}>  `identificador` int(11) NOT NULL auto_increment,<{{{><}}}>  `nombre` varchar(45) default NULL,<{{{><}}}>  `apellidos` varchar(45) default NULL,<{{{><}}}>  `clave` varchar(10) default NULL,<{{{><}}}>  PRIMARY KEY  (`identificador`)<{{{><}}}>) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+Servers\DISM\QueryHistory\3<|||>1<|||>2018-11-11 11:31:28|dism|0|CREATE TABLE IF NOT EXISTS `usuarios` (<{{{><}}}>  `identificador` int(11) NOT NULL auto_increment,<{{{><}}}>  `nombre` varchar(45) default NULL,<{{{><}}}>  `apellidos` varchar(45) default NULL,<{{{><}}}>  `clave` varchar(10) default NULL,<{{{><}}}>  PRIMARY KEY  (`identificador`)<{{{><}}}>) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+Servers\DISM\QueryHistory\4<|||>1<|||>2018-11-11 11:46:43|dism|0|use dism;<{{{><}}}><{{{><}}}><{{{><}}}>drop table if exists municipios;
+Servers\DISM\QueryHistory\5<|||>1<|||>2018-11-11 11:55:42|dism|63|use dism;<{{{><}}}><{{{><}}}><{{{><}}}>drop table if exists municipios;<{{{><}}}>drop table if exists estaciones;<{{{><}}}>drop table if exists observacion;<{{{><}}}><{{{><}}}>CREATE TABLE IF NOT EXISTS municipios (<{{{><}}}>  latitud varchar(45),<{{{><}}}>  id_old int(45),<{{{><}}}>  url varchar(45),<{{{><}}}>  latitud_dec decimal(10,8),<{{{><}}}>  altitud int(7),<{{{><}}}>  capital varchar(45),<{{{><}}}>  num_hab int(7),<{{{><}}}>  zona_comarcal int(11),<{{{><}}}>  destacada int(11),<{{{><}}}>  nombre varchar(45),<{{{><}}}>  longitud_dec decimal(10,8),<{{{><}}}>  id varchar(45),<{{{><}}}>  longitud varchar(45),<{{{><}}}>  PRIMARY KEY(id)<{{{><}}}>) ENGINE=MyISAM;
+Servers\DISM\QueryHistory\6<|||>1<|||>2018-11-11 11:57:04|dism|63|use dism;<{{{><}}}><{{{><}}}><{{{><}}}>drop table if exists municipios;<{{{><}}}>drop table if exists estaciones;<{{{><}}}>drop table if exists observacion;<{{{><}}}><{{{><}}}>-- Creamos la tabla municipios<{{{><}}}>CREATE TABLE IF NOT EXISTS municipios (<{{{><}}}>  latitud varchar(45) default null,<{{{><}}}>  id_old int(45) default null,<{{{><}}}>  url varchar(45) default null,<{{{><}}}>  latitud_dec decimal(10,8) default null,<{{{><}}}>  altitud int(7) default null,<{{{><}}}>  capital varchar(45) default null,<{{{><}}}>  num_hab int(7) default null,<{{{><}}}>  zona_comarcal int(11) default null,<{{{><}}}>  destacada int(11) default null,<{{{><}}}>  nombre varchar(45) default null,<{{{><}}}>  longitud_dec decimal(10,8) default null,<{{{><}}}>  id varchar(45) not null,<{{{><}}}>  longitud varchar(45) default null,<{{{><}}}>  PRIMARY KEY(id)<{{{><}}}>) ENGINE=MyISAM;
+Servers\DISM\QueryHistory\7<|||>1<|||>2018-11-11 11:59:21|dism|47|use dism;<{{{><}}}><{{{><}}}><{{{><}}}>drop table if exists municipios;<{{{><}}}>drop table if exists estaciones;<{{{><}}}>drop table if exists observacion;<{{{><}}}><{{{><}}}>-- Creamos la tabla municipios<{{{><}}}>CREATE TABLE IF NOT EXISTS municipios (<{{{><}}}>  latitud varchar(45) default null,<{{{><}}}>  id_old int(11) default null,<{{{><}}}>  url varchar(45) default null,<{{{><}}}>  latitud_dec decimal(10,8) default null,<{{{><}}}>  altitud int(11) default null,<{{{><}}}>  capital varchar(45) default null,<{{{><}}}>  num_hab int(11) default null,<{{{><}}}>  zona_comarcal int(11) default null,<{{{><}}}>  destacada int(11) default null,<{{{><}}}>  nombre varchar(45) default null,<{{{><}}}>  longitud_dec decimal(10,8) default null,<{{{><}}}>  id varchar(45) not null,<{{{><}}}>  longitud varchar(45) default null,<{{{><}}}>  PRIMARY KEY(id)<{{{><}}}>) ENGINE=MyISAM;
+Servers\DISM\QueryHistory\8<|||>1<|||>2018-11-11 13:18:30|dism|0|insert into municipios values<{{{><}}}>	('42º3\'48.311352',34004,'abarca-de-campos-id34001',42.06341982,758,'Abarca de Campos',42,673402,0,'Abarca de Campos',-4.84050594,'id34001','-4º50\'25.821384');
+Servers\DISM\QueryHistory\9<|||>1<|||>2018-11-11 13:18:53|dism|0|select * from municipios
+Servers\DISM\QueryHistory\11<|||>1<|||>2018-11-11 13:31:22|dism|0|insert into municipios values<{{{><}}}>	('42º3\'48.311352\"',34004,'abarca-de-campos-id34001',42.06341982,758,'Abarca de Campos',42,673402,0,'Abarca de Campos',-4.84050594,'id34001','-4º50\'25.821384\"');<{{{><}}}>select * from municipios;
+Servers\DISM\QueryHistory\10<|||>1<|||>2018-11-11 13:46:02|dism|0|select * from municipios;
+Servers\DISM\QueryHistory\13<|||>1<|||>2018-11-11 13:49:42|dism|0|delete from municipios;
+Servers\DISM\QueryHistory\12<|||>1<|||>2018-11-11 13:49:45|dism|0|insert into municipios values<{{{><}}}>	('42º3\'48.311352\"',34004,'abarca-de-campos-id34001',42.06341982,758,'Abarca de Campos',42,'673402',0,'Abarca de Campos',-4.84050594,'id34001','-4º50\'25.821384\"'),<{{{><}}}>	('41º48\'28.54044\"',42005,'abejar-id42001',41.80792790,1140,'Abejar',346,'674201',0,'Abejar',-2.78291427,'id42001','-2º46\'58.491372\"');<{{{><}}}>select * from municipios;
+Servers\DISM\QueryHistory\16<|||>1<|||>2018-11-11 16:22:53|dism|0|insert into municipios values<{{{><}}}>	('42º3\'48.311352\"',34004,'abarca-de-campos-id34001',42.06341982,758,'Abarca de Campos',42,'673402',0,'Abarca de Campos',-4.84050594,'id34001','-4º50\'25.821384\"'),<{{{><}}}>	('41º48\'28.54044\"',42005,'abejar-id42001',41.80792790,1140,'Abejar',346,'674201',0,'Abejar',-2.78291427,'id42001','-2º46\'58.491372\"');<{{{><}}}>insert into estaciones values<{{{><}}}>	('374720N','MURCIA',4,'7031','SAN JAVIER AEROPUERTO','08433','004812W'),<{{{><}}}>	('411131N','SEGOVIA',1798,'2150H','LA PINILLA, ESTACIÓN DE ESQUÍ','08143','032831W');<{{{><}}}>insert into observacion values<{{{><}}}>	('1387',-8.421517,'2018-11-10T12:00:00',0.0,58.0,15.5,7.9,233.0,43.36597,230.0,'A CORUÑA',997.8,71.0,2.8,18.6,1005.6,16.0,16.9,17.0,11.6,20.0,24.0,56.3,13.1,0.0,13.2);<{{{><}}}>select * from observacion;
+Servers\DISM\QueryHistory\17<|||>1<|||>2018-11-11 16:29:24|dism|16|insert into observacion values<{{{><}}}>	('1387',-8.421517,'2018-11-10T12:00:00',0.0,58.0,15.5,7.9,233.0,43.36597,230.0,'A CORUÑA',997.8,71.0,2.8,18.6,1005.6,16.0,16.9,17.0,11.6,20.0,24.0,56.3,13.1,0.0,13.2);<{{{><}}}>select * from observacion;
+Servers\DISM\QueryHistory\19<|||>1<|||>2018-11-11 16:33:54|dism|0|insert into municipios values<{{{><}}}>	('42º3\'48.311352\"',34004,'abarca-de-campos-id34001',42.06341982,758,'Abarca de Campos',42,'673402',0,'Abarca de Campos',-4.84050594,'id34001','-4º50\'25.821384\"'),<{{{><}}}>	('41º48\'28.54044\"',42005,'abejar-id42001',41.80792790,1140,'Abejar',346,'674201',0,'Abejar',-2.78291427,'id42001','-2º46\'58.491372\"');<{{{><}}}>insert into estaciones values<{{{><}}}>	('374720N','MURCIA',4,'7031','SAN JAVIER AEROPUERTO','08433','004812W'),<{{{><}}}>	('411131N','SEGOVIA',1798,'2150H','LA PINILLA, ESTACIÓN DE ESQUÍ','08143','032831W');
+Servers\DISM\QueryHistory\21<|||>1<|||>2018-11-11 16:50:07|dism|0|select * from municipios;<{{{><}}}>select * from estaciones;
+Servers\DISM\QueryHistory\22<|||>1<|||>2018-11-11 16:51:17|dism|0|select * from observacion;
+Servers\DISM\QueryHistory\20<|||>1<|||>2018-11-11 16:53:05|dism|16|insert into observacion values<{{{><}}}>	('1387',-8.421517,'2018-11-10T12:00:00',0.0,58.0,15.5,7.9,233.0,43.36597,230.0,'A CORUÑA',997.8,71.0,2.8,18.6,1005.6,16.0,16.9,17.0,11.6,20.0,24.0,56.3,13.1,0.0,13.2);
+Servers\DISM\QueryHistory\14<|||>1<|||>2018-11-11 16:53:11|dism|0|select * from municipios;<{{{><}}}>select * from estaciones;<{{{><}}}>select * from observacion;
+Servers\DISM\QueryHistory\18<|||>1<|||>2018-11-11 17:24:45|dism|0|insert into municipios values<{{{><}}}>	('42º3\'48.311352\"','34004','abarca-de-campos-id34001','42.06341982','758','Abarca de Campos','42','673402','0','Abarca de Campos','-4.84050594','id34001','-4º50\'25.821384\"'),<{{{><}}}>	('41º48\'28.54044\"','42005','abejar-id42001','41.80792790','1140','Abejar','346','674201','0','Abejar','-2.78291427','id42001','-2º46\'58.491372\"');<{{{><}}}>insert into estaciones values<{{{><}}}>	('374720N','MURCIA','4','7031','SAN JAVIER AEROPUERTO','08433','004812W'),<{{{><}}}>	('411131N','SEGOVIA','1798','2150H','LA PINILLA, ESTACIÓN DE ESQUÍ','08143','032831W');
+Servers\DISM\QueryHistory\23<|||>1<|||>2018-11-11 17:32:36|dism|0|delete from municipios;<{{{><}}}>delete from estaciones;<{{{><}}}>delete from observacion;
+Servers\DISM\QueryHistory\24<|||>1<|||>2018-11-11 17:38:24|dism|0|insert into observacion values<{{{><}}}>	('1387',-8.421517,'2018-11-10T12:00:00',0.0,58.0,15.5,7.9,233.0,43.36597,230.0,'A CORUÑA',997.8,71.0,2.8,18.6,1005.6,16.0,16.9,17.0,11.6,20.0,24.0,56.3,13.1,0.0,13.2)
+Servers\DISM\QueryHistory\15<|||>1<|||>2018-11-11 17:40:55|dism|0|delete from observacion;
+Servers\DISM\QueryHistory\25<|||>1<|||>2018-11-11 17:41:02|dism|0|insert into observacion values<{{{><}}}>	('1387',-8.421517,'2018-11-10T12:00:00',0.0,58.0,15.5,7.9,233.0,43.36597,230.0,'A CORUÑA',997.8,71.0,2.8,18.6,1005.6,16.0,16.9,17.0,11.6,20.0,24.0,56.3,13.1,0.0,13.2),<{{{><}}}>	('2150H',-3.475165,'2018-11-10T21:00:00',0.0,1798.0,18.3,6.2,108.0,41.19193,153.0,'LA PINILLA  ESTACIÓN DE ESQUÍ',818.2,98.0,5.1,5.3,5.4,5.8,5.1,20.0,0.0,3.4,0.0,0.0,6.0,0.0,0.0);
+Servers\DISM\QueryHistory\27<|||>1<|||>2018-11-11 17:41:12|dism|15|select * from observacion
+Servers\DISM\QueryHistory\26<|||>1<|||>2018-11-12 12:03:20|dism|0|-- Insertamos algunos datos en las tablas<{{{><}}}>delete from municipios;<{{{><}}}>delete from estaciones;<{{{><}}}>delete from observacion;<{{{><}}}>
+Servers\DISM\QueryHistory\28<|||>1<|||>2018-11-13 17:18:34|dism|0|DELETE<{{{><}}}>FROM municipios;
+Servers\DISM\QueryHistory\31<|||>1<|||>2018-11-13 18:47:18|dism|0|DELETE<{{{><}}}>FROM municipios;<{{{><}}}>DELETE<{{{><}}}>FROM estaciones;<{{{><}}}>DELETE<{{{><}}}>FROM observacion;
+Servers\DISM\QueryHistory\29<|||>1<|||>2018-11-14 09:54:55|dism|109|create table if not exists apikeys (<{{{><}}}>	llave varchar(50)<{{{><}}}>) engine=myisam default charset=latin1;
+Servers\DISM\QueryHistory\32<|||>1<|||>2018-11-14 11:04:53|dism|78|<{{{><}}}>-- Creamos una tabla de keys<{{{><}}}>DROP TABLE IF EXISTS apikeys;<{{{><}}}>CREATE TABLE IF NOT EXISTS apikeys (<{{{><}}}>	llave VARCHAR(200)<{{{><}}}>) ENGINE=myisam DEFAULT CHARSET=latin1;
+Servers\DISM\QueryHistory\33<|||>1<|||>2018-11-15 12:55:22|dism|0|SELECT *<{{{><}}}>FROM municipios;<{{{><}}}>SELECT *<{{{><}}}>FROM estaciones;<{{{><}}}>SELECT *<{{{><}}}>FROM observacion;

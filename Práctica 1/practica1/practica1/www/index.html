@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <!-- Apache Cordova-->
+    <script type="text/javascript" src="cordova.js"></script>
+    <!--JQUERY -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <!--JQUERY MOBILE -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!--JQUERY, Datatabla -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+
+    <!-- El atributo "async" es necesario para que RequireJS funcione en una aplicación de
+    Windows. -->
+    <script type="text/html" data-main="scripts/startup" src="lib/require.2.1.8.js" async>
+    </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+
+    <!-- CSS -->
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- src=JS -->
+    <script type="text/javascript" src="scripts/municipiosEs.js"></script>
+    <script type="text/javascript" src="scripts/estacionesEs.js"></script>
+    <script type="text/javascript" src="scripts/mapaEs.js"></script>
+    <script type="text/javascript" src="scripts/datosEs.js"></script>
+
+</head>
+<body>
+    <header data-role="header">
+        <h1>DISM 2018/2019</h1>
+        <h2><a href="index.html">MENÚ</a></h2>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="municipiosEs.html" class="ui-btn-active" data-theme="b">Municipios</a></li>
+                <li><a href="estacionesEs.html" class="ui-btn-active" data-theme="b">Estaciones</a></li>
+                <li><a href="mapaEs.html" class="ui-btn-active" data-theme="b">Mapa</a></li>
+                <li><a href="datosEs.html" class="ui-btn-active" data-theme="b">Datos</a></li>
+                <li><a href="creditos.html" data-rel="dialog" data-transition="pop">Créditos</a></li>
+            </ul>
+        </div>
+    </header>
+    <h2>Descripción de la Aplicación AEMET</h2>
+    <h3>Municipios</h3>
+    <p>Municipios de España con más de 50000 habitantes.</p>
+    <h3>Estaciones</h3>
+    <p>Estaciones Meteorológicas de España.</p>
+    <h3>Mapa</h3>
+    <p>Mapa de las Estaciones Meteorológicas de España.</p>
+    <h3>Datos</h3>
+    <p>
+        Datos de observación horarios de las últimas 24 horas de la estación
+        meterológica indicada.
+    </p>
+    <h3>Créditos</h3>
+    <p>Datos del Alumno Responsable.</p>
+</body>
+</html>

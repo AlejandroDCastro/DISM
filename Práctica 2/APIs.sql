@@ -1,0 +1,88 @@
+USE dism;
+DROP TABLE IF EXISTS municipios;
+DROP TABLE IF EXISTS estaciones;
+DROP TABLE IF EXISTS observacion;
+
+
+-- Creamos la tabla municipios
+CREATE TABLE IF NOT EXISTS municipios (
+ latitud VARCHAR(45) DEFAULT NULL,
+ id_old VARCHAR(45) DEFAULT NULL,
+ url VARCHAR(45) DEFAULT NULL,
+ latitud_dec VARCHAR(45) DEFAULT NULL,
+ altitud VARCHAR(45) DEFAULT NULL,
+ capital VARCHAR(45) DEFAULT NULL,
+ num_hab VARCHAR(45) DEFAULT NULL,
+ zona_comarcal VARCHAR(45) DEFAULT NULL,
+ destacada VARCHAR(45) DEFAULT NULL,
+ nombre VARCHAR(45) DEFAULT NULL,
+ longitud_dec VARCHAR(45) DEFAULT NULL,
+ id VARCHAR(45) DEFAULT NULL,
+ longitud VARCHAR(45) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+-- Creamos la tabla estaciones
+CREATE TABLE IF NOT EXISTS estaciones (
+ latitud VARCHAR(45) DEFAULT NULL,
+ provincia VARCHAR(45) DEFAULT NULL,
+ altitud VARCHAR(45) DEFAULT NULL,
+ indicativo VARCHAR(45) DEFAULT NULL,
+ nombre VARCHAR(45) DEFAULT NULL,
+ indsinop VARCHAR(45) DEFAULT NULL,
+ longitud VARCHAR(45) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+-- Creamos la tabla observacion
+CREATE TABLE IF NOT EXISTS observacion (
+ idema VARCHAR(50) DEFAULT NULL,
+ lon VARCHAR(50) DEFAULT NULL,
+ fint VARCHAR(50) DEFAULT NULL,
+ prec VARCHAR(50) DEFAULT NULL,
+ alt VARCHAR(50) DEFAULT NULL,
+ vmax VARCHAR(50) DEFAULT NULL,
+ vv VARCHAR(50) DEFAULT NULL,
+ dv VARCHAR(50) DEFAULT NULL,
+ lat VARCHAR(50) DEFAULT NULL,
+ dmax VARCHAR(50) DEFAULT NULL,
+ ubi VARCHAR(50) DEFAULT NULL,
+ hr VARCHAR(50) DEFAULT NULL,
+ tamin VARCHAR(50) DEFAULT NULL,
+ ta VARCHAR(50) DEFAULT NULL,
+ tamax VARCHAR(50) DEFAULT NULL,
+ tpr VARCHAR(50) DEFAULT NULL,
+ rviento VARCHAR(50) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+-- Insertamos algunos datos en las tablas
+DELETE
+FROM municipios;
+DELETE
+FROM estaciones;
+DELETE
+FROM observacion;
+INSERT INTO municipios VALUES
+	('42º3\'48.311352\"','34004','abarca-de-campos-id34001','42.06341982','758','Abarca de Campos','42','673402','0','Abarca de Campos','-4.84050594','id34001','-4º50\'25.821384\"'),
+	('41º48\'28.54044\"','42005','abejar-id42001','41.80792790','1140','Abejar','346','674201','0','Abejar','-2.78291427','id42001','-2º46\'58.491372\"');
+INSERT INTO estaciones VALUES
+	('374720N','MURCIA','4','7031','SAN JAVIER AEROPUERTO','08433','004812W'),
+	('411131N','SEGOVIA','1798','2150H','LA PINILLA ESTACIÓN DE ESQUÍ','08143','032831W');
+INSERT INTO observacion
+	(idema,lon,fint,prec,alt,vmax,vv,dv,lat,dmax,ubi,hr,tamin,ta,tamax,tpr,rviento) VALUES
+	('1387','-8.421517','2018-11-11T21:00:00','0.0','58.0','15.5','7.9','233.0','43.36597','230.0','A CORUÑA','40.0','9.7','0.9','11.9','3.6','0.0'),
+	('2150H','-3.475165','2018-11-11T21:00:00','0.0','1798.0','31.4','8.3','318.0','41.19193','252.0','LA PINILLA ESTACIÓN DE ESQUÍ','85.0','5.7','5.9','6.1','3.6','0.0');
+SELECT *
+FROM municipios;
+SELECT *
+FROM estaciones;
+SELECT *
+FROM observacion;
+
+
+-- Creamos una tabla de keys
+DROP TABLE IF EXISTS apikeys;
+CREATE TABLE IF NOT EXISTS apikeys (
+	llave VARCHAR(100)
+) ENGINE=myisam DEFAULT CHARSET=latin1;
